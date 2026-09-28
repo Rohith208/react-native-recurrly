@@ -63,7 +63,7 @@ const SubscriptionCard = ({
                 <View className="sub-row-copy">
                   <Text className="sub-label">{item.label}</Text>
                   <Text className="sub-value" numberOfLines={1} ellipsizeMode="tail">
-                    {item.value}
+                    {item.value ?? 'Not Provided'}
                   </Text>
                 </View>
               </View>
